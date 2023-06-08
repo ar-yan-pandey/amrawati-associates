@@ -1,0 +1,77 @@
+@media only screen and (max-width:979px){
+    header{
+        display: none;
+
+    }
+
+    .mobileheader{
+        display: grid;
+
+    }
+    
+
+    .menuicon{
+        display: block;
+    }
+    .name{
+        font-size: 22px;
+        margin-left: 0px;
+    }
+    .logo{
+        height: 40px;
+    }
+
+    .homebutton{
+        margin-top: 20px;
+        display: none;
+    }
+
+    .homeintro{
+        margin-top: 70px;
+    }
+
+    .home{
+        height: 35vh;
+        margin-bottom: 5px;
+    }
+
+    .cardminetext{
+        font-size: 5vw;
+    }
+    .cardmine:hover{
+        scale:none;
+    
+    }
+
+    .aboutusbox{
+       grid-template-columns: auto;
+    }
+
+    .heading{
+        font-size: 20px;
+    }
+
+    .contactdetails{
+        width: 100%;
+        margin: 2px;
+        font-size:2.7vw ;
+        line-height: 4vw;
+        text-align: center;
+    }
+    .contactdetails h3{
+        
+        padding: 0px;
+    }
+    .contactdetails h2{
+        align-self: center;
+        margin-top: 10px;
+        
+        width: 80%;
+    }
+
+    .location{
+        scale: 0.8;
+        margin: 0px;
+    }
+
+}
